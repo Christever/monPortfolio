@@ -1,0 +1,64 @@
+body {
+    color: white;
+}
+
+#bienvenue {
+    height: calc(100vh - 64px);
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bienvenue-flex {
+    height: 3em;
+
+    h3 {
+        color: white;
+    }
+}
+
+header {
+    background: rgb(2, 8, 70);
+    position: sticky;
+    top: 0;
+}
+
+#main-bloc {
+    // color: #1B2430;
+
+    height: calc(100% - 60px);
+
+    h1,
+    h2,
+    p {
+        width: 33%;
+    }
+
+    h1 {
+        align-self: center;
+    }
+
+    img {
+        width: 25%;
+        height: 95%;
+        border-radius: 50%;
+    }
+}
+
+#realisations {
+    color: black;
+    background: #FAF7F0;
+    h1 {
+        font-size: 3em;
+        font-weight: 200;
+    }
+}
+
+#grid-realisations {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // grid-template-rows: minmax(200px, auto);
+    gap: 10px;
+
+}
