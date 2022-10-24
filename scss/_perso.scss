@@ -34,5 +34,18 @@ header {
 #mesRealisations {
     h1 {
         color: black;
+        margin-bottom: 60px;
+    }
+}
+
+.projet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+    figure {
+        width: 500px;
+    }
+    p {
+        color: black;
     }
 }

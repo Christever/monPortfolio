@@ -60,7 +60,7 @@ p {
 figure {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 0px;
   border: none;
   border-radius: 15px;
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
@@ -219,6 +219,19 @@ header a {
 }
 
 #mesRealisations h1 {
+  color: black;
+  margin-bottom: 60px;
+}
+
+.projet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15px;
+}
+.projet figure {
+  width: 500px;
+}
+.projet p {
   color: black;
 }
 
