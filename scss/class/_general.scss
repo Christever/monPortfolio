@@ -62,11 +62,16 @@ figure {
     flex-direction: column;
     padding: 0px;
     border: none;
-    border-radius: 15px;
+    // border-radius: 15px;
     box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
     margin-bottom: 10px;
+    img {
+        border: none;
+        background: #000;
+        padding: 5px;
+    }
     // background: #000;
 }
 
@@ -129,4 +134,10 @@ li {
 
 .h100 {
     height: 100%;
+}
+
+
+
+.text-black {
+    color: black;
 }

@@ -45,7 +45,24 @@ header {
     figure {
         width: 500px;
     }
-    p {
+    p,
+    a {
         color: black;
     }
+}
+
+.btn-a {
+    background: rgb(42, 31, 129);
+    color: silver !important;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+footer {
+    background: rgb(2, 8, 70);
+    margin-top: 20px;
+    padding: 35px 0;
 }
