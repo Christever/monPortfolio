@@ -41,7 +41,10 @@
 
             <section id="bienvenue">
                 <div class="container flex flex-column h100 justify-between">
-                    <div class="flex justify-between h25 align-items-center">
+                    <div
+                        class="flex justify-between h25 align-items-center"
+                        id="bien-1"
+                    >
                         <h2 class="w25">Hello, <br />je suis Christever</h2>
                         <p class="flex flex-column justify-center w33">
                             Je vous présente ici mes différentes ébauches
@@ -53,7 +56,10 @@
                             </a>
                         </p>
                     </div>
-                    <div class="flex justify-between align-items-center">
+                    <div
+                        class="flex justify-between align-items-center"
+                        id="portfolio"
+                    >
                         <h1 class="w25">Mon Portfolio</h1>
 
                         <img
@@ -76,32 +82,28 @@
                 <!--  -->
                 <div class="container">
                     <div class="projet">
-                        <figure>
-                            <img
-                                src="images/brick_defender.png"
-                                alt="Image jeu"
-                            />
-                            <figcaption>Brick Defender</figcaption>
-                        </figure>
-                        <div class="flex flex-column justify-center">
+                        <a
+                            href="https://christever.itch.io/gamejam20-breakout"
+                            target="_blank"
+                            class="a-figure"
+                        >
+                            <figure>
+                                <img
+                                    src="images/brick_defender.png"
+                                    alt="Image jeu"
+                                />
+                                <figcaption>Brick Defender</figcaption>
+                            </figure>
+                        </a>
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Un projet réalisé pour la Gamejam numéro 20.
                                 <br />
                                 Codé avec LOVE2D et en LUA. <br />
-                                Les graphismes ont été réalisés par moi-même
-                                grace au logiciel Pixel. <br />
-                                Utilisation de la librairie
-                                <em>classic.lua</em> pour les pseudo classes.
                             </p>
-                            <br />
-                            <p>
-                                <u>But du jeu :</u><br />
-                                Défendre vos vies ( représentée par une tête de
-                                Mario). <br />
-                                Pour vous aider, un aimant, utilisable 4 fois,
-                                qui colle la balle sur le paddle.
-                            </p>
-                            <br />
+
                             <p>
                                 Jouable en ligne et sources téléchargeables.
                             </p>
@@ -115,7 +117,9 @@
                         </div>
                     </div>
                     <div class="projet">
-                        <div class="flex flex-column justify-center">
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Un projet réalisé pour la Gamejam numéro 30.
                                 <br />
@@ -130,23 +134,39 @@
                                 >En savoir plus</a
                             >
                         </div>
-                        <figure>
-                            <img
-                                src="images/gravity_city.png"
-                                alt="Image jeu"
-                            />
-                            <figcaption>Gravity Defender</figcaption>
-                        </figure>
+                        <a
+                            href="https://christever.itch.io/horizontal-shooter"
+                            class="a-figure"
+                            target="_blank"
+                        >
+                            <figure>
+                                <img
+                                    src="images/gravity_city.png"
+                                    alt="Image jeu"
+                                />
+                                <figcaption>Gravity Defender</figcaption>
+                            </figure>
+                        </a>
                     </div>
+
                     <div class="projet">
-                        <figure>
-                            <img
-                                src="images/horizontal_shooter.png"
-                                alt="Image jeu"
-                            />
-                            <figcaption>War of planes</figcaption>
-                        </figure>
-                        <div class="flex flex-column justify-center">
+                        <a
+                            href="https://christever.itch.io/horizontal-shooter"
+                            target="_blank"
+                            class="a-figure"
+                            rel="noopener noreferrer"
+                        >
+                            <figure>
+                                <img
+                                    src="images/horizontal_shooter.png"
+                                    alt="Image jeu"
+                                />
+                                <figcaption>War of planes</figcaption>
+                            </figure>
+                        </a>
+                        <div
+                            class="flex flex-column justify-center project-text project-text"
+                        >
                             <p>
                                 Un projet réalisé pour la Gamejam 13
                                 <br />
@@ -163,7 +183,9 @@
                         </div>
                     </div>
                     <div class="projet">
-                        <div class="flex flex-column justify-center">
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Jeu réalisé pour la GameCodeur gameJam 11. Le
                                 thème étant le code pur, donc aucun fichier
@@ -178,20 +200,38 @@
                                 >En savoir plus</a
                             >
                         </div>
-                        <figure>
-                            <img
-                                src="images/invader_pucode.png"
-                                alt="Image jeu"
-                            />
-                            <figcaption>Space Invader (pur code)</figcaption>
-                        </figure>
+                        <a
+                            href="https://christever.itch.io/spaceinvader-pur-code"
+                            target="_blank"
+                            class="a-figure"
+                            rel="noopener noreferrer"
+                        >
+                            <figure>
+                                <img
+                                    src="images/invader_pucode.png"
+                                    alt="Image jeu"
+                                />
+                                <figcaption>
+                                    Space Invader (pur code)
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
                     <div class="projet">
-                        <figure>
-                            <img src="images/sodokan.png" alt="Image jeu" />
-                            <figcaption>Shodokan</figcaption>
-                        </figure>
-                        <div class="flex flex-column justify-center">
+                        <a
+                            href="https://christever.itch.io/sodokan"
+                            target="_blank"
+                            class="a-figure"
+                            rel="noopener noreferrer"
+                        >
+                            <figure>
+                                <img src="images/sodokan.png" alt="Image jeu" />
+                                <figcaption>Shodokan</figcaption>
+                            </figure>
+                        </a>
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Codé avec LOVE2D et en LUA. <br />
                                 Sources téléchargeables
@@ -207,7 +247,9 @@
                     </div>
 
                     <div class="projet">
-                        <div class="flex flex-column justify-center">
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Peojet réalisé pour la Gamejam 18. <br />
                                 Codé eavec LOVE2D et LUA. <br />
@@ -221,17 +263,36 @@
                                 >En savoir plus</a
                             >
                         </div>
-                        <figure>
-                            <img src="images/street.PNG" alt="Image jeu" />
-                            <figcaption>Stree Fighter</figcaption>
-                        </figure>
+                        <a
+                            href="https://christever.itch.io/gamejam-18"
+                            target="_blank"
+                            class="a-figure"
+                            rel="noopener noreferrer"
+                        >
+                            <figure>
+                                <img src="images/street.PNG" alt="Image jeu" />
+                                <figcaption>Stree Fighter</figcaption>
+                            </figure>
+                        </a>
                     </div>
                     <div class="projet">
-                        <figure>
-                            <img src="images/treasure.png" alt="Image jeu" />
-                            <figcaption>Treasure Hunter</figcaption>
-                        </figure>
-                        <div class="flex flex-column justify-center">
+                        <a
+                            href="https://christever.itch.io/treasure-hunter"
+                            target="_blank"
+                            class="a-figure"
+                            rel="noopener noreferrer"
+                        >
+                            <figure>
+                                <img
+                                    src="images/treasure.png"
+                                    alt="Image jeu"
+                                />
+                                <figcaption>Treasure Hunter</figcaption>
+                            </figure>
+                        </a>
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Un simple test de AOZ Studio. <br />
                                 Tiré d'un tutoriel sur PIXI. Adapté par mes
@@ -248,7 +309,9 @@
                         </div>
                     </div>
                     <div class="projet">
-                        <div class="flex flex-column justify-center">
+                        <div
+                            class="flex flex-column justify-center project-text"
+                        >
                             <p>
                                 Un de mes tous premiers projets. <br />
                                 Codé avec LOVE2D et LUA. <br />
@@ -262,10 +325,17 @@
                                 >En savoir plus</a
                             >
                         </div>
-                        <figure>
-                            <img src="images/shooter.png" alt="Image jeu" />
-                            <figcaption>Space Shooter</figcaption>
-                        </figure>
+                        <a
+                            href="https://christever.itch.io/shooter"
+                            target="_blank"
+                            class="a-figure"
+                            rel="noopener noreferrer"
+                        >
+                            <figure>
+                                <img src="images/shooter.png" alt="Image jeu" />
+                                <figcaption>Space Shooter</figcaption>
+                            </figure>
+                        </a>
                     </div>
                 </div>
             </section>
