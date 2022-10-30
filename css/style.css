@@ -363,6 +363,8 @@ footer {
   }
 
   .a-figure {
+    display: flex;
+    justify-content: center;
     pointer-events: auto;
   }
 }
